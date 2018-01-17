@@ -1,0 +1,5 @@
+namespace blbgm {
+	class BLDownloader {
+
+	};
+};
