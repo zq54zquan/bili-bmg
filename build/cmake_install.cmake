@@ -1,4 +1,4 @@
-# Install script for directory: /Users/quanzhou/oscode/bili-bgm
+# Install script for directory: /Users/zhouquan/oscode/bili-bmg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,10 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/quanzhou/oscode/bili-bgm/build/bin/cmake_install.cmake")
-
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -41,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/quanzhou/oscode/bili-bgm/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhouquan/oscode/bili-bmg/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

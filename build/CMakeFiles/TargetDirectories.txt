@@ -1,5 +1,3 @@
-/Users/quanzhou/oscode/bili-bgm/build/CMakeFiles/rebuild_cache.dir
-/Users/quanzhou/oscode/bili-bgm/build/CMakeFiles/edit_cache.dir
-/Users/quanzhou/oscode/bili-bgm/build/bin/CMakeFiles/rebuild_cache.dir
-/Users/quanzhou/oscode/bili-bgm/build/bin/CMakeFiles/edit_cache.dir
-/Users/quanzhou/oscode/bili-bgm/build/bin/CMakeFiles/bili_bmg.dir
+/Users/zhouquan/oscode/bili-bmg/build/CMakeFiles/rebuild_cache.dir
+/Users/zhouquan/oscode/bili-bmg/build/CMakeFiles/edit_cache.dir
+/Users/zhouquan/oscode/bili-bmg/build/CMakeFiles/BiliBg.dir
