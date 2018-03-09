@@ -10,10 +10,8 @@
 
 class BiliMovieDumux {
 public:
-    BiliMovieDumux(std::string path):filePath(path) {
-
-    }
-
+	BiliMovieDumux() = default;
+    BiliMovieDumux(std::string path):filePath(path) {}
 	void process(void);
 private:
     std::string filePath;

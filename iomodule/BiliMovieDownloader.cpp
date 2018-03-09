@@ -91,6 +91,8 @@ BiliMovieDownloader& BiliMovieDownloader::downloadVideo() {
 		this->filePath = downloadPath;
 		// file has download here, continue!	
 		return *this;	
+	}else {
+		this->filePath = downloadPath;	
 	}
 
     FILE *fp = fopen(downloadPath.c_str(),"wb");
@@ -100,13 +102,13 @@ BiliMovieDownloader& BiliMovieDownloader::downloadVideo() {
     curl_easy_setopt(curl,CURLOPT_WRITEDATA,fp);
     CURLcode success = curl_easy_perform(curl);
     if(success == CURLE_OK) {
-		this->downloadState = BiliMovieDownloadStateDownloadFinish;	
+		this->downloadState = BiliMovieDownloadStateDownloadFinish;
 		this->filePath = downloadPath;
 	}else {
 		this->downloadState = BiliMovieDownloadStateNot;
 	}
     curl_easy_cleanup(curl);
-    fclose(fp);
+    //fclose(fp);
     return *this;
 }
 
